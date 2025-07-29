@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- overlay -->
+    <section id="overlay"></section>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <button id="toggle-language" class="theme-toggle">🌐 VI</button>
+                <button id="toggle-theme" class="theme-toggle">🌙 Dark Mode</button>
+                <!-- logo -->
+                <div class="logo">
+                    <img src="images/logo.png" alt="website logo">
+                </div>
+                <!-- navigation links -->
+                <ul class="nav-links">
+                    <li class="nav-link"><a href="#banner">Home</a></li>
+                    <li class="nav-link"><a href="#things">Works</a></li>
+                    <li class="nav-link"><a href="#projects">Projects</a></li>
+                    <li class="nav-link"><a href="#skills">Skills</a></li>
+                    <a href="#footer"><button class="nav-btn">Contact</button></a>
+                </ul>
+                <!-- menu button -->
+                <div class="nav-icons">
+                    <div class="nav-icon"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- banner -->
+    <section id="banner">
+        <div class="container">
+            <!-- img  -->
+            <div class="banner-img">
+                <img src="images/banner.jpg" alt="Banner Image">
+            </div>
+            <!-- heading -->
+            <div class="banner-heading">
+                <h1>Hello, I'm Khoa</h1>
+                <span id="typed"></span>
+                <p>I'm a passionate Frontend Developer from Vietnam.
+                    I specialize in building responsive,
+                    user-friendly websites using HTML, CSS, and JavaScript.
+                    I enjoy turning complex problems into simple,
+                    elegant interfaces. Outside of coding,
+                    I like reading tech blogs and exploring new UI trends.
+                    Currently, I'm learning Node.js to become a full-stack developer.
+                </p>
+            </div>
+            <a href="#"><button class="banner-btn">View More</button></a>
+            <div class="banner-socials">
+                <a href="https://www.facebook.com/share/1B6x97wfK5/" target="_blank"><i
+                        class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://github.com/khoacoder3110" target="_blank"><i
+                        class="fa-brands fa-square-github"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- things -->
+    <section id="things">
+        <div class="container">
+            <!-- heading  -->
+            <h2>Things I Do</h2>
+            <!-- item 1 -->
+            <div class="things-item">
+                <!-- img  -->
+                <img src="images/item1.jpg" alt="item 1">
+                <!-- text  -->
+                <div class="things-item-heading">
+                    <h3>Frontend</h3>
+                    <p>I’ve been learning and practicing frontend development since early 2023.
+                        I focus on writing clean, maintainable code and creating smooth, intuitive user experiences.
+                        Currently, I’m learning React to build modern web applications,
+                        and I’m also familiar with tools like Github, VS Code, and Figma to support my workflow.
+                    </p>
+                </div>
+            </div>
+            <!-- item 2 -->
+            <div class="things-item">
+                <!-- img  -->
+                <img src="images/item2.jpg" alt="item 1">
+                <!-- text  -->
+                <div class="things-item-heading">
+                    <h3>Learn English</h3>
+                    <p>I’m currently in the process of improving my English skills to enhance both my personal
+                        development and professional growth.
+                        Being able to read and understand technical documents in English not only helps me follow
+                        programming courses more effectively,
+                        but also allows me to access a wider range of high-quality resources, tutorials, and
+                        documentation from the global developer community
+                    </p>
+                </div>
+            </div>
+            <!-- item 3 -->
+            <div class="things-item">
+                <!-- img  -->
+                <img src="images/item3.png" alt="item 1">
+                <!-- text  -->
+                <div class="things-item-heading">
+                    <h3>Relationships</h3>
+                    <p>I’m actively building meaningful connections in the tech community to learn, grow, and create new
+                        opportunities.
+                        I believe that connection leads to learning, and learning opens the door to greater
+                        possibilities — both personally and professionally.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- projects -->
+    <section id="projects">
+        <div class="container">
+            <!-- heading -->
+            <h2>My Projects</h2>
+            <!-- img -->
+            <div class="projects-img">
+                <div class="projects-img-single">
+                    <img src="images/project1.png" alt="Space Wars">
+                </div>
+                <div class="projects-img-single">
+                    <img src="images/project2.png" alt="Portfolio">
+                </div>
+                <div class="projects-img-single">
+                    <img src="images/project3.png" alt="DB Quản lý bóng đá">
+                </div>
+                <div class="projects-img-single">
+                    <img src="images/project4.jpg" alt="Web tóm tắt văn bản">
+                </div>
+            </div>
+            <!-- button -->
+            <div class="projects-btn">
+                <a href="https://github.com/khoacoder3110" target="_blank"><button>View Project</button></a>
+            </div>
+        </div>
+    </section>
+    <!-- skills -->
+    <section id="skills">
+        <div class="container">
+            <!-- heading -->
+            <h2>Skills</h2>
+            <!-- img -->
+            <div class="skills-img">
+                <img src="images/skill1.png" alt="HTML/CSS/JavaScript">
+                <img src="images/skill2.jpg" alt="Github">
+                <img src="images/skill3.jpg" alt="UI/UX Design">
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer id="footer">
+        <div class="container">
+            <!-- img -->
+            <div class="footer-img">
+                <img src="images/footer.png" alt="Footer image">
+            </div>
+            <!-- heading -->
+            <div class="footer-heading">
+                <h1>Thank you for visiting my profile!</h1>
+                <!-- contact -->
+                <div class="footer-contact">
+                    <a href="tel:0123456789">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>0123456789</p>
+                    </a>
+                    <a href="mailto:ngkhoa31102005@gmail.com">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>ngkhoa31102005@gmail.com</p>
+                    </a>
+                </div>
+                <!-- social links -->
+                <div class="banner-socials">
+                    <a href="https://www.facebook.com/share/1B6x97wfK5/" target="_blank"><i
+                            class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://github.com/khoacoder3110" target="_blank"><i
+                            class="fa-brands fa-square-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- thư viện Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/a519da4127.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
